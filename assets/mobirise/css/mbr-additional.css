@@ -532,16 +532,19 @@ section.form .container {
 #msg-box5-3 P {
   color: #fac51c;
 }
-#social-buttons4-7 .mbr-section-title,
-#social-buttons4-7 .btn-social {
+#social-buttons4-8 .mbr-section-title,
+#social-buttons4-8 .btn-social {
   color: #fff;
 }
-#social-buttons4-7 .btn-social > * {
+#social-buttons4-8 .btn-social > * {
   vertical-align: middle;
   padding-right: 0;
 }
+#social-buttons4-8 .mbr-section-title {
+  color: #f7da64;
+}
 #form2-5 .mbr-section-title {
-  color: #fff;
+  color: #f3c649;
 }
 #form2-5 .mbr-section-subtitle {
   color: #a0a0a0;

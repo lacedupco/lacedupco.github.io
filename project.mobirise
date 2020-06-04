@@ -27,7 +27,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 8,
+    "uniqCompNum": 9,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -210,6 +210,9 @@
             ".btn-social > *": {
               "vertical-align": "middle",
               "padding-right": "0"
+            },
+            ".mbr-section-title": {
+              "color": "#f7da64"
             }
           },
           "_params": {
@@ -228,14 +231,14 @@
             "Theme"
           ],
           "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social btn-black\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Lacedup04/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social btn-black\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/lacedup04/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 15px;\"></span></a>      ",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Lacedup04/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/lacedup04\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      ",
           "_name": "social-buttons4",
-          "_anchor": "social-buttons4-7"
+          "_anchor": "social-buttons4-8"
         },
         {
           "_styles": {
             ".mbr-section-title": {
-              "color": "#fff"
+              "color": "#f3c649"
             },
             ".mbr-section-subtitle": {
               "color": "#a0a0a0"
