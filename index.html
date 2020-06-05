@@ -82,7 +82,37 @@
 </section>
 
 <section class="mbr-section mbr-section-md-padding" id="social-buttons4-8" data-rv-view="15" style="background-color: rgb(40, 40, 40); padding-top: 90px; padding-bottom: 90px;">
-    
+    <div align="center" id="paypal-button-container"></div>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+    <script>
+      paypal.Buttons({
+          style: {
+              shape: 'pill',
+              color: 'gold',
+              layout: 'horizontal',
+              label: 'paypal',
+              
+          },
+          createOrder: function(data, actions) {
+              return actions.order.create({
+                  purchase_units: [{
+                      amount: {
+                          value: '1'
+                      }
+                  }]
+              });
+          },
+          onApprove: function(data, actions) {
+              return actions.order.capture().then(function(details) {
+                  alert('Transaction completed by ' + details.payer.name.given_name + '!');
+              });
+          }
+      }).render('#paypal-button-container');
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-xs-center">
