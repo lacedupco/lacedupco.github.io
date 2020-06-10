@@ -101,8 +101,8 @@
             }
           },
           "_params": {
-            "logo": false,
-            "showBrand": false,
+            "logo": true,
+            "showBrand": true,
             "hideButtons": true,
             "sticky": false,
             "collapsed": true,
@@ -121,10 +121,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/blm-128x128.png",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "alt": "BLM",
+              "link": "",
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -132,7 +133,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">WE STAND WITH #BLM</a>",
           "_tags": [
             "Theme"
           ],
@@ -488,8 +489,8 @@
             }
           },
           "_params": {
-            "logo": false,
-            "showBrand": false,
+            "logo": true,
+            "showBrand": true,
             "hideButtons": true,
             "sticky": false,
             "collapsed": true,
@@ -508,10 +509,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/blm-128x128.png",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "alt": "BLM",
+              "link": "",
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -519,7 +521,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">WE STAND WITH #BLM</a>",
           "_tags": [
             "Theme"
           ],
