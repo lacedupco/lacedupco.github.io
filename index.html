@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="assets/images/lacedup-03-128x128.png" type="image/x-icon">
   <meta name="description" content="">
   
-  <title>Home</title>
+  <title>LacedUp : Home</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin">
@@ -38,7 +38,7 @@
                         <div class="hamburger-icon"></div>
                     </button>
 
-                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="index.html">VIEW RAFFLE</a></li><li class="nav-item dropdown open"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="" aria-expanded="true">SHOP</a><div class="dropdown-menu"><a class="dropdown-item" href="index.html">T-SHIRTS</a><a class="dropdown-item" href="index.html">SHOES</a><a class="dropdown-item" href="#top">ACCESSORIES</a></div></li></ul>
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="page1.html">VIEW LATEST RAFFLE</a></li></ul>
                     <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <div class="close-icon"></div>
                     </button>
@@ -81,38 +81,49 @@
 
 </section>
 
-<section class="mbr-section mbr-section-md-padding" id="social-buttons4-8" data-rv-view="15" style="background-color: rgb(40, 40, 40); padding-top: 90px; padding-bottom: 90px;">
-    <div align="center" id="paypal-button-container"></div>
-    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-    <script>
-      paypal.Buttons({
-          style: {
-              shape: 'pill',
-              color: 'gold',
-              layout: 'horizontal',
-              label: 'paypal',
+<section class="mbr-section mbr-section__container article" id="header3-7" data-rv-view="10" style="background-color: rgb(40, 40, 40); padding-top: 20px; padding-bottom: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="mbr-section-title display-2">CENTRAL SITE FOR RAFFLES AND SHOPPING</h3>
+                <p class="mbr-section-subtitle">CHECK OUT THE LATEST RAFFLE BELOW</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="msg-box5-8" data-rv-view="5" style="background-color: rgb(40, 40, 40); padding-top: 120px; padding-bottom: 120px;">
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="mbr-table-md-up">
+
               
-          },
-          createOrder: function(data, actions) {
-              return actions.order.create({
-                  purchase_units: [{
-                      amount: {
-                          value: '1'
-                      }
-                  }]
-              });
-          },
-          onApprove: function(data, actions) {
-              return actions.order.capture().then(function(details) {
-                  alert('Transaction completed by ' + details.payer.name.given_name + '!');
-              });
-          }
-      }).render('#paypal-button-container');
-    </script>
-    <br>
-    <br>
-    <br>
-    <br>
+
+              <div class="mbr-table-cell col-md-5 text-xs-center text-md-right content-size">
+                  <h3 class="mbr-section-title display-2">NIKE AIRFORCE 1</h3>
+                  
+
+                  <div><a class="btn btn-warning" href="page1.html">ENTER RAFFLE</a></div>
+              </div>
+
+
+              
+
+
+              <div class="mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size" style="width: 50%;">
+                  <div class="mbr-figure"><img src="assets/images/af1-1000x1000.png"></div>
+              </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section mbr-section-md-padding" id="social-buttons4-8" data-rv-view="12" style="background-color: rgb(40, 40, 40); padding-top: 90px; padding-bottom: 90px;">
+    
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-xs-center">
@@ -123,7 +134,7 @@
     </div>
 </section>
 
-<section class="mbr-section form2" id="form2-5" data-rv-view="5" style="background-color: rgb(40, 40, 40); padding-top: 120px; padding-bottom: 120px;">
+<section class="mbr-section form2" id="form2-5" data-rv-view="14" style="background-color: rgb(40, 40, 40); padding-top: 120px; padding-bottom: 120px;">
         
     <div class="mbr-section mbr-section__container mbr-section__container--middle">
         <div class="container">
@@ -141,10 +152,10 @@
                 <div class="col-xs-12 col-lg-10 col-lg-offset-1" data-form-type="formoid">
                     <div data-form-alert="true"><div hidden="" data-form-alert-success="true">Thanks for subscribing! we'll try our best to let you know when we go live on new raffles. Goodluck!</div></div>
                     <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="GET UPDATES ON LATEST RAFFLES">
-                        <input type="hidden" value="wu/w3m6M9LZT2nJSOnxjrGl+HxelKSTJOGrJ3psI4MrJPklwmyBgk9fespLXjyrLE1SAh0e7/EK1aG0mhfcgutPyTmZ5fBqit/84Wg1HKPt/g9tXgwRw+joNW9DzZAwV" data-form-email="true">
+                        <input type="hidden" value="MNKwWKquESTTfF/k9eYsJ6xubQqnrWXzDs19omTNJLVm5D+GqNUDz8/Nb77KtdjH4T5Z241YrNVdJdME7GI5oeBiKpPGyC5GZsLo1DBX9yXPk88qWSO0kxgI9CbylcDQ" data-form-email="true">
                         <div class="mbr-subscribe mbr-subscribe-dark input-group">
                             <input type="email" class="form-control" name="email" required="" data-form-field="Email" placeholder="Enter Your Email Address..." id="form2-5-email">
-                            <span class="input-group-btn"><button type="submit" class="btn btn-primary">SUBSCRIBE</button></span>
+                            <span class="input-group-btn"><button type="submit" class="btn btn-warning">SUBSCRIBE</button></span>
                         </div>
                     </form>
                 </div>
@@ -153,7 +164,7 @@
     </div>
 </section>
 
-<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-6" data-rv-view="11" style="background-color: rgb(40, 40, 40); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-6" data-rv-view="8" style="background-color: rgb(40, 40, 40); padding-top: 1.75rem; padding-bottom: 1.75rem;">
     
     <div class="container text-xs-center">
         <p>© Copyright 2020 RoyalGraphX for LacedUpCo Pvt Ltd. - All Rights Reserved</p>

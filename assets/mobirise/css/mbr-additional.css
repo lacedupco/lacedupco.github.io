@@ -532,6 +532,24 @@ section.form .container {
 #msg-box5-3 P {
   color: #fac51c;
 }
+#header3-7 .mbr-section-title,
+#header3-7 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-7 .mbr-section-title {
+  text-align: center;
+  color: #fac51c;
+}
+#header3-7 .mbr-section-subtitle {
+  text-align: center;
+  color: #fac51c;
+}
+#msg-box5-8 H3 {
+  color: #fac51c;
+}
+#msg-box5-8 P {
+  color: #f7da64;
+}
 #social-buttons4-8 .mbr-section-title,
 #social-buttons4-8 .btn-social {
   color: #fff;
@@ -541,11 +559,88 @@ section.form .container {
   padding-right: 0;
 }
 #social-buttons4-8 .mbr-section-title {
-  color: #f7da64;
+  color: #fac51c;
 }
 #form2-5 .mbr-section-title {
   color: #f3c649;
 }
 #form2-5 .mbr-section-subtitle {
   color: #a0a0a0;
+}
+
+#msg-box2-b .mbr-section-title {
+  color: #fac51c;
+  text-align: left;
+}
+#msg-box2-b .mbr-section-subtitle {
+  color: #fac51c;
+  text-align: left;
+}
+#menu-9 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-9 .navbar-caption {
+  color: #ffffff;
+}
+#menu-9 .navbar-toggler {
+  color: #f7da64;
+}
+#menu-9 .close-icon::before,
+#menu-9 .close-icon::after {
+  background-color: #f7da64;
+}
+#menu-9 .link,
+#menu-9 .dropdown-item {
+  color: #f7da64;
+  font-family: 'Oxygen', sans-serif;
+}
+#menu-9 .link {
+  font-size: 1rem;
+}
+#menu-9 .dropdown-item,
+#menu-9 .nav-dropdown-sm .link {
+  font-size: 1.083rem;
+}
+#menu-9 .link:hover,
+#menu-9 .dropdown-item:hover,
+#menu-9 .link:focus,
+#menu-9 .dropdown-item:focus {
+  color: #f3c649;
+}
+#menu-9 .link[aria-expanded="true"],
+#menu-9 .dropdown-menu {
+  background: #0e0e0e;
+}
+#menu-9 .nav-dropdown-sm .link:focus,
+#menu-9 .nav-dropdown-sm .link:hover,
+#menu-9 .nav-dropdown-sm .dropdown-item:focus,
+#menu-9 .nav-dropdown-sm .dropdown-item:hover {
+  background: #202020!important;
+}
+#menu-9 .navbar,
+#menu-9 .nav-dropdown-sm,
+#menu-9 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-9 .nav-dropdown-sm .dropdown-menu {
+  background: #282828;
+}
+#menu-9 .bg-color.transparent .link {
+  color: #f7da64;
+  transition: none;
+}
+#menu-9 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-9 .bg-color.transparent.opened .link:hover,
+#menu-9 .bg-color.transparent.opened .link:focus {
+  color: #f3c649;
+}
+#menu-9 .link[aria-expanded="true"],
+#menu-9 .dropdown-item[aria-expanded="true"] {
+  color: #f3c649!important;
+}
+#msg-box5-i H3 {
+  color: #f3c649;
+}
+#msg-box5-i P {
+  color: #fac51c;
 }
